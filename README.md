@@ -63,9 +63,7 @@ To ask a question, simply run the application and type your question into the co
 ## Rate Limiting
 
 The application includes rate limiting to comply with ArXiv's API terms. It waits for 3 seconds between each batch of API requests to ensure that the rate limit of one request every three seconds is not exceeded.
-```bash 
-python main.py --limit 100
-```
+
 
 ## Contributing
 
