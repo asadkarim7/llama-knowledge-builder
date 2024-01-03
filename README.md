@@ -29,13 +29,19 @@ The project is structured into multiple modules for clarity and modularity:
 
 To set up and run the application, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Create a virtual environment for the project:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+2. Clone the repository to your local machine:
 
    ```bash
    git clone https://github.com/asadkarim7/llama-knowledge-builder.git
    cd llama-knowledge-builder
     ```
-2. Install the required Python packages:
+3. Install the required Python packages:
     ```bash
    pip install -r requirements.txt
    ```
